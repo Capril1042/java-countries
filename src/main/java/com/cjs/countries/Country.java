@@ -3,11 +3,11 @@ package com.cjs.countries;
 public class Country
 {
     private String name;
-    private long population;
-    private long landMassSize;
+    private int population;
+    private int landMassSize;
     private int medianAge;
 
-    public Country(String name, long population, long landMassSize, int medianAge)
+    public Country(String name, int population, int landMassSize, int medianAge)
     {
         this.name = name;
         this.population = population;
@@ -20,12 +20,12 @@ public class Country
         return name;
     }
 
-    public long getPopulation()
+    public int getPopulation()
     {
         return population;
     }
 
-    public long getLandMassSize()
+    public int getLandMassSize()
     {
         return landMassSize;
     }
